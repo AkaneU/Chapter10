@@ -65,27 +65,19 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  header {
-  }
-
   main {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .box {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
   }
 
-  .step-img1 {
+  .box:last-child {
+    margin: 0 30px;
   }
-
-  .step-img2 {
-  }
-
-  .step-img3 {
-  }
-
-  .title {
-  }
-
-  footer {
-  }
-}
